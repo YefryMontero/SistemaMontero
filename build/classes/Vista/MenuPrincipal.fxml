@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="612.0" prefWidth="810.0" stylesheets="@../estilo/estiloFormulario.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlador.MenuPrincipalController">
+   <children>
+      <VBox layoutX="266.0" layoutY="143.0" prefHeight="400.0" prefWidth="600.0" styleClass="VBox" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#mostrarVentas" text="Ventas" />
+            <Button mnemonicParsing="false" onAction="#mostrarCompras" text="Compras" />
+            <Button mnemonicParsing="false" onAction="#mostrarImprimir" text="Imprimir" />
+         </children>
+      </VBox>
+   </children>
+   <styleClass>
+      <String fx:value="background" />
+      <String fx:value="anchorPane" />
+   </styleClass>
+</AnchorPane>

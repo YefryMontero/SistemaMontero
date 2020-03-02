@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ProgMontero2.jnlp">
+  <information>
+    <title>ProgMontero2</title>
+    <vendor>Yefry Montero</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ProgMontero2.jar" size="29858" download="eager" />
+    <jar href="lib\postgresql-9.1-902.jdbc4.jar" size="561969" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ProgMontero2" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="MainApp.VentanaMontero"  name="ProgMontero2" />
+  <update check="always"/>
+</jnlp>

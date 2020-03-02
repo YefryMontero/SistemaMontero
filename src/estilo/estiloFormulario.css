@@ -1,0 +1,79 @@
+.anchorPane{
+	
+	-fx-background-color: #A9CCE3;
+	-fx-alignment: CENTER;
+    -fx-background-size: USE_;
+    
+}
+
+.HBox{
+-fx-lignment: CENTER;
+-fx-spacing: 15;
+
+}
+.VBox{
+
+-fx-alignment: TOP_CENTER;
+-fx-spacing: 15;
+-fx-padding: 20;
+}
+.GridPane{
+-fx-alignment: CENTER;
+-fx-Hgap : 15;
+-fx-Vgap : 15;
+}
+.label {
+    -fx-font-size: 15pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: #154360;
+    -fx-opacity: 0.6;
+}
+.text-field {
+   -fx-font-size: 14pt;
+    -fx-font-family: "Segoe UI Semibold";
+     -fx-outline: none;
+    -fx-display: block;
+    -fx-background: rgba(21,67,96,.5);
+    -fx-color: #1B4F72;
+    -fx-border: none;
+    -fx-border-radius: 2px;
+    -fx-box-sizing: border-box;
+    -fx-transition: all .5s ease;
+}
+.button {
+    -fx-padding: 5 22 5 22;
+    -fx-border-color: #EBF5FB;
+    -fx-border-width: 2;
+    -fx-background-radius: 0;
+    -fx-background-color: #85C1E9;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 15pt;
+    -fx-text-fill: #d8d8d8;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+.button:hover {
+    -fx-background-color: rgba(52, 152, 219, 0.7);
+}
+.button:pressed, .button:default:hover:pressed {
+    -fx-background-color: #1b4f72;
+    -fx-text-fill: #ebf5fb;
+}
+.button:focused {
+    -fx-border-width: 1, 1;
+    -fx-border-color: white, white;
+    -fx-border-style: solid, segments(1, 1);
+    -fx-border-radius: 0, 0;
+    -fx-border-insets: 1 1 1 1, 0;
+}
+.button:disabled, .button:default:disabled {
+    -fx-opacity: 0.4;
+    -fx-background-color: #1d1d1d;
+    -fx-text-fill: white;
+}
+.button:default {
+    -fx-background-color: -fx-focus-color;
+    -fx-text-fill: #ffffff;
+}
+.button:default:hover {
+    -fx-background-color: derive(-fx-focus-color,30%);
+}
